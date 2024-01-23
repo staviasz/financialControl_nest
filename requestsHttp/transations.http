@@ -1,0 +1,25 @@
+GET http://localhost:3000/transations
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwibmFtZSI6ImVyaWNrIFN0YXZpYXN6IiwiZW1haWwiOiJ0ZXN0ZTJAdGVzdGUuY29tIiwiaWF0IjoxNzA2MDM5NjA3LCJleHAiOjE3MDYxMjYwMDd9.QjaySYLZRT2jPpQki4vR4udrrNKGww2rqaCBISZBht8
+
+###
+POST http://localhost:3000/transations
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwibmFtZSI6ImVyaWNrIFN0YXZpYXN6IiwiZW1haWwiOiJ0ZXN0ZTJAdGVzdGUuY29tIiwiaWF0IjoxNzA2MDM5NjA3LCJleHAiOjE3MDYxMjYwMDd9.QjaySYLZRT2jPpQki4vR4udrrNKGww2rqaCBISZBht8
+Content-Type: application/json
+
+{
+  "description":"testes",
+  "value": 5000,
+  "categoryId":9,
+  "type":"transfer"
+}
+
+###
+GET http://localhost:3000/transations/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwibmFtZSI6ImVyaWNrIFN0YXZpYXN6IiwiZW1haWwiOiJ0ZXN0ZTJAdGVzdGUuY29tIiwiaWF0IjoxNzA2MDM5NjA3LCJleHAiOjE3MDYxMjYwMDd9.QjaySYLZRT2jPpQki4vR4udrrNKGww2rqaCBISZBht8
+
+###
+GET http://localhost:3000/transations/extract
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwibmFtZSI6ImVyaWNrIFN0YXZpYXN6IiwiZW1haWwiOiJ0ZXN0ZTJAdGVzdGUuY29tIiwiaWF0IjoxNzA2MDM5NjA3LCJleHAiOjE3MDYxMjYwMDd9.QjaySYLZRT2jPpQki4vR4udrrNKGww2rqaCBISZBht8
+
+
+

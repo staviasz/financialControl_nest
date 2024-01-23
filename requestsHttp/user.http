@@ -1,0 +1,38 @@
+GET http://localhost:3000/user
+
+###
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name":"erick Staviasz",
+  "email": "teste3@teste.com",
+  "password": "@Teste12"
+}
+
+###
+POST http://localhost:3000/user/login
+Content-Type: application/json
+
+{
+  "email": "teste2@teste.com",
+  "password": "@Teste12"
+}
+
+###
+GET http://localhost:3000/user/detail
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsIm5hbWUiOiJlcmljayBTdGF2aWFzeiIsImVtYWlsIjoidGVzdGUzQHRlc3RlLmNvbSIsImlhdCI6MTcwNjAzMDMxMSwiZXhwIjoxNzA2MTE2NzExfQ.W7lo4RgcjSY7er6GJ9DpQDvAx-b-Ku9PjQEHjCmBSJQ
+
+###
+PATCH http://localhost:3000/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsIm5hbWUiOiJlcmljayBTdGF2aWFzeiIsImVtYWlsIjoidGVzdGUzQHRlc3RlLmNvbSIsImlhdCI6MTcwNjAzMDMxMSwiZXhwIjoxNzA2MTE2NzExfQ.W7lo4RgcjSY7er6GJ9DpQDvAx-b-Ku9PjQEHjCmBSJQ
+Content-Type: application/json
+
+{
+  "name":"erick Staviasz update",
+  "password": "@Teste12"
+}
+
+###
+DELETE http://localhost:3000/user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsIm5hbWUiOiJlcmljayBTdGF2aWFzeiIsImVtYWlsIjoidGVzdGUzQHRlc3RlLmNvbSIsImlhdCI6MTcwNjAzMDMxMSwiZXhwIjoxNzA2MTE2NzExfQ.W7lo4RgcjSY7er6GJ9DpQDvAx-b-Ku9PjQEHjCmBSJQ
